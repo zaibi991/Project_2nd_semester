@@ -1,0 +1,20 @@
+# title trigger named t1
+t1,TITLE,Pakistan
+
+# description trigger named t2
+t2,DESCRIPTION,Ebrahim Raisi
+
+# description trigger named t3
+t3,DESCRIPTION,artificial intelligence
+
+# before trigger named t4
+t4,BEFORE,21 May 2024 00:00:00
+
+# composite trigger named t5
+t5,AND,t2,t3
+
+# composite trigger named t6
+t6,AND,t1,t4
+
+# the trigger list contains t5 and t6
+ADD,t5,t6
